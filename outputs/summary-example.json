@@ -1,0 +1,35 @@
+{
+  "kind": "fixed-synthetic-demo-not-customer-or-revenue",
+  "version": "1.0",
+  "rules": {
+    "keys": [
+      "record_id"
+    ],
+    "trim": false,
+    "lower": false
+  },
+  "sources": [
+    {
+      "name": "source-a.csv",
+      "sourceIndex": 1,
+      "rows": 4,
+      "delimiter": ",",
+      "bytes": 246
+    },
+    {
+      "name": "source-b.csv",
+      "sourceIndex": 2,
+      "rows": 3,
+      "delimiter": ",",
+      "bytes": 187
+    }
+  ],
+  "counts": {
+    "input": 7,
+    "kept": 3,
+    "duplicate": 1,
+    "review": 3
+  },
+  "reconciled": true,
+  "note": "Static example produced by the private full tool core. No private implementation included. Browser end-to-end and payment delivery NOT verified."
+}

@@ -1,0 +1,159 @@
+{
+  "kind": "fixed-synthetic-demo-not-customer-or-revenue",
+  "version": "1.0",
+  "headers": [
+    "record_id",
+    "item",
+    "region",
+    "note"
+  ],
+  "entries": [
+    {
+      "source": "source-a.csv",
+      "sourceIndex": 1,
+      "record": 2,
+      "line": 2,
+      "values": [
+        "DEMO-001",
+        "样例物品甲",
+        "示例区域东",
+        "常规"
+      ],
+      "originalFields": [
+        "DEMO-001",
+        "样例物品甲",
+        "示例区域东",
+        "常规"
+      ],
+      "status": "kept",
+      "reason": "唯一记录或整行重复的第一份",
+      "retained": "文件1:2"
+    },
+    {
+      "source": "source-a.csv",
+      "sourceIndex": 1,
+      "record": 3,
+      "line": 3,
+      "values": [
+        "DEMO-002",
+        "样例物品乙",
+        "示例区域南",
+        "含逗号,的备注"
+      ],
+      "originalFields": [
+        "DEMO-002",
+        "样例物品乙",
+        "示例区域南",
+        "含逗号,的备注"
+      ],
+      "status": "kept",
+      "reason": "唯一记录或整行重复的第一份",
+      "retained": "文件1:3"
+    },
+    {
+      "source": "source-a.csv",
+      "sourceIndex": 1,
+      "record": 4,
+      "line": 4,
+      "values": [
+        "DEMO-003",
+        "样例物品丙",
+        "示例区域北",
+        "两行\n备注"
+      ],
+      "originalFields": [
+        "DEMO-003",
+        "样例物品丙",
+        "示例区域北",
+        "两行\n备注"
+      ],
+      "status": "kept",
+      "reason": "唯一记录或整行重复的第一份",
+      "retained": "文件1:4"
+    },
+    {
+      "source": "source-a.csv",
+      "sourceIndex": 1,
+      "record": 5,
+      "line": 6,
+      "values": [
+        "DEMO-004",
+        "样例物品丁",
+        "示例区域西",
+        "旧版本"
+      ],
+      "originalFields": [
+        "DEMO-004",
+        "样例物品丁",
+        "示例区域西",
+        "旧版本"
+      ],
+      "status": "review_conflict",
+      "reason": "相同业务键对应不同原始内容；整组复核",
+      "retained": ""
+    },
+    {
+      "source": "source-b.csv",
+      "sourceIndex": 2,
+      "record": 2,
+      "line": 2,
+      "values": [
+        "DEMO-002",
+        "样例物品乙",
+        "示例区域南",
+        "含逗号,的备注"
+      ],
+      "originalFields": [
+        "含逗号,的备注",
+        "示例区域南",
+        "样例物品乙",
+        "DEMO-002"
+      ],
+      "status": "duplicate",
+      "reason": "整行原文完全一致，保留第一份",
+      "retained": "文件1:3"
+    },
+    {
+      "source": "source-b.csv",
+      "sourceIndex": 2,
+      "record": 3,
+      "line": 3,
+      "values": [
+        "DEMO-004",
+        "样例物品丁",
+        "示例区域西",
+        "新版本"
+      ],
+      "originalFields": [
+        "新版本",
+        "示例区域西",
+        "样例物品丁",
+        "DEMO-004"
+      ],
+      "status": "review_conflict",
+      "reason": "相同业务键对应不同原始内容；整组复核",
+      "retained": ""
+    },
+    {
+      "source": "source-b.csv",
+      "sourceIndex": 2,
+      "record": 4,
+      "line": 4,
+      "values": [
+        "",
+        "样例物品戊",
+        "示例区域中",
+        "待补编号"
+      ],
+      "originalFields": [
+        "待补编号",
+        "示例区域中",
+        "样例物品戊",
+        ""
+      ],
+      "status": "review_empty_key",
+      "reason": "至少一个业务键为空",
+      "retained": ""
+    }
+  ]
+}

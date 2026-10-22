@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc"><rect width="1200" height="1200" fill="#f2f5ed"/><g transform="translate(0 150)">
+<title id="title">CSV 本地合并与冲突复核</title><desc id="desc">原创封面。展示虚构数据 7 条输入，3 条保留，1 条完全重复，3 条待复核。不是订单或收入数据。</desc>
+<rect width="1200" height="900" fill="#f2f5ed"/>
+<path d="M68 78h1064M68 794h1064" stroke="#19383c" stroke-width="2"/>
+<text x="72" y="120" font-family="Segoe UI,Microsoft YaHei,sans-serif" font-size="18" font-weight="700" fill="#126d62" letter-spacing="3">LOCAL FILE WORKFLOW / v1.0</text>
+<text x="72" y="228" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="62" font-weight="700" fill="#19383c">合并 CSV，</text>
+<text x="72" y="312" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="62" font-weight="700" fill="#19383c">把冲突留给复核。</text>
+<text x="75" y="380" font-family="Microsoft YaHei,Segoe UI,sans-serif" font-size="24" fill="#516770">按字段名对齐 · 完全重复保留一份 · 同键冲突整组复核</text>
+<rect x="72" y="434" width="1056" height="294" rx="20" fill="white" stroke="#cbd8d7"/>
+<g font-family="Microsoft YaHei,Segoe UI,sans-serif">
+<text x="102" y="479" font-size="15" fill="#516770">虚构样例演示 / 非客户数据 / 非销售结果</text>
+<rect x="102" y="514" width="220" height="176" rx="12" fill="#edf3ee"/><text x="127" y="580" font-size="52" font-weight="700" fill="#19383c">7</text><text x="127" y="626" font-size="21" fill="#516770">输入记录</text>
+<rect x="357" y="514" width="220" height="176" rx="12" fill="#e0f0e7"/><text x="382" y="580" font-size="52" font-weight="700" fill="#126d62">3</text><text x="382" y="626" font-size="21" fill="#516770">保留记录</text>
+<rect x="612" y="514" width="220" height="176" rx="12" fill="#edf3ee"/><text x="637" y="580" font-size="52" font-weight="700" fill="#19383c">1</text><text x="637" y="626" font-size="21" fill="#516770">完全重复</text>
+<rect x="867" y="514" width="231" height="176" rx="12" fill="#fff2d8"/><text x="892" y="580" font-size="52" font-weight="700" fill="#995c13">3</text><text x="892" y="626" font-size="21" fill="#516770">待复核记录</text>
+<text x="74" y="765" font-size="19" fill="#126d62">免安装 · 本地浏览器处理 · 源文件不改写 · 附逐行审计与原值 JSON</text>
+<text x="74" y="837" font-size="16" fill="#516770">仅同字段 CSV；最多 10 文件 / 10 MiB / 20,000 条。CSV 导出含文本保护前缀。</text>
+</g></g></svg>
